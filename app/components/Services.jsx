@@ -12,14 +12,14 @@ const Services = () => {
       id="services"
       className="w-full px-[12%] py-10 scroll-mt-20"
     >
-      <motion.h4
+      {/* <motion.h4
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.5 }}
         className="text-center mb-2 text-lg font-Ovo"
       >
         What I Offer
-      </motion.h4>
+      </motion.h4> */}
 
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
@@ -62,10 +62,10 @@ const Services = () => {
               <p className="text-sm  text-gray-600 leading-5 dark:text-white/80">
                 {description}
               </p>
-              <a href={link} className="flex items-center gap-2 text-sm mt-5">
+              {/* <a href={link} className="flex items-center gap-2 text-sm mt-5">
                 Read more{" "}
                 <Image src={assets.right_arrow} alt="" className="w-4" />
-              </a>
+              </a> */}
             </motion.div>
           ))
         ) : (

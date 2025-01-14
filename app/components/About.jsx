@@ -42,7 +42,7 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6 }}
           className="w-64 sm:w-80 rounded-3xl"
         >
-          <Image src={assets.Sach} alt="user" className="w-full  rounded-3xl" />
+          <Image src={assets.ssss} alt="user" className="w-full  rounded-3xl" />
         </motion.div>
 
 
@@ -51,7 +51,7 @@ const About = ({ isDarkMode }) => {
          whileInView={{ opacity: 1}}
          transition={{ duration: 0.6, delay: 0.8 }}
         className="flex-1">
-          <p className="mb-7 max-w-4xl text-[15px] font-Ovo">
+          <p className="mb-7 max-w-4xl text-[16px] font-Ovo">
             Passionate MERN Stack Developer with hands-on experience in building
             dynamic web applications using MongoDB, Express.js, React.js,Next.js
             and Node.js. I recently completed an internship, where I honed my
